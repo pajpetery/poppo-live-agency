@@ -6,24 +6,29 @@
     <title>Join Our Poppo Live Agency</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Roboto', Arial, sans-serif;
             margin: 0;
             padding: 0;
-            line-height: 1.6;
-            background-color: #f4f4f9;
+            background: linear-gradient(135deg, #ff7e5f, #feb47b);
             color: #333;
         }
         header {
-            background: #ff6f61;
+            background: linear-gradient(135deg, #ff6f61, #ff9a8b);
             color: white;
-            padding: 1rem 0;
+            padding: 2rem 1rem;
             text-align: center;
         }
         header h1 {
             margin: 0;
+            font-size: 2.5rem;
+            font-weight: bold;
+        }
+        header p {
+            margin: 0.5rem 0 0;
+            font-size: 1.2rem;
         }
         section {
-            padding: 1.5rem;
+            padding: 2rem 1rem;
             max-width: 1200px;
             margin: 0 auto;
         }
@@ -34,27 +39,34 @@
         .cta a {
             background: #ff6f61;
             color: white;
-            padding: 0.8rem 2rem;
+            padding: 1rem 2.5rem;
             text-decoration: none;
-            border-radius: 5px;
-            font-size: 1.2rem;
+            border-radius: 50px;
+            font-size: 1.5rem;
+            transition: background 0.3s;
         }
         .cta a:hover {
             background: #ff3f31;
         }
         .benefits {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
-            gap: 1rem;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
         }
         .benefit-item {
             background: white;
-            padding: 1rem;
-            border-radius: 5px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-            flex: 1 1 calc(33% - 1rem);
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
             text-align: center;
+        }
+        .benefit-item h3 {
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+        .benefit-item p {
+            font-size: 1rem;
+            color: #666;
         }
         footer {
             text-align: center;
@@ -76,7 +88,7 @@
 
 <header>
     <h1>Join Our Poppo Live Agency</h1>
-    <p>Your gateway to fun, fame, and earnings!</p>
+    <p>Step into the spotlight and start earning today!</p>
 </header>
 
 <section>
@@ -87,7 +99,7 @@
 </section>
 
 <section>
-    <h2>Why Join Us?</h2>
+    <h2 style="text-align: center; font-size: 2rem; margin-bottom: 1rem;">Why Join Us?</h2>
     <div class="benefits">
         <div class="benefit-item">
             <h3>Earn Money</h3>
@@ -105,8 +117,8 @@
 </section>
 
 <section>
-    <h2>How It Works</h2>
-    <ol>
+    <h2 style="text-align: center; font-size: 2rem; margin-bottom: 1rem;">How It Works</h2>
+    <ol style="max-width: 800px; margin: 0 auto; font-size: 1.2rem; line-height: 1.8;">
         <li>Click the "Join Now" button to sign up using our invite link.</li>
         <li>Set up your profile and start streaming.</li>
         <li>Engage with your audience and grow your following.</li>
@@ -115,8 +127,8 @@
 </section>
 
 <section>
-    <h2>Success Stories</h2>
-    <p>Our streamers are earning big and having fun. Will you be our next star?</p>
+    <h2 style="text-align: center; font-size: 2rem; margin-bottom: 1rem;">Success Stories</h2>
+    <p style="text-align: center; font-size: 1.2rem;">Our streamers are earning big and having fun. Will you be our next star?</p>
 </section>
 
 <footer>
